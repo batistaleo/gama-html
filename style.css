@@ -4,6 +4,17 @@ body {
     font-family: sans-serif;
 }
 
+h1{
+
+    animation-name: mudacor;
+    animation-duration: 5s;
+}
+
+@keyframes mudacor{
+    from {color: red; }
+    to {color: yellow;}
+}
+
 #cabecalho{
 
     border: black 1px solid;
@@ -81,6 +92,7 @@ h3{
 
 #footer{
     display: flex;
+    justify-content: space-between;
     background-color: gray;
     margin-left: 5%;
     margin-right: 5%;
@@ -88,16 +100,36 @@ h3{
 }
 
 .redes-sociais{
-    width: 50%;
     padding-bottom: 50px;
     color: white;
 }
 
-.e-mail{
-    width: 50%;
-     
+.icons{
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
-.icons{
-    width: 50px;
+.e-mail h3{
+    color: white;
+    
+}
+
+.e-mail{
+    margin-right: 35px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
 }
